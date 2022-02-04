@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "salas",
+  "info": {
+    "singularName": "sala",
+    "pluralName": "salas",
+    "displayName": "salas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_sala": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "participantes_sala": {
+      "type": "integer"
+    },
+    "monto_sala": {
+      "type": "string"
+    }
+  }
+}
